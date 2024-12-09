@@ -171,14 +171,7 @@ parsed_elements = parser.parse()
 
 # Process parsed_elements as needed
 🤝 Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository
-Create a new branch for your feature or bugfix
-Commit your changes with clear messages
-Push to your branch
-Open a Pull Request describing your changes
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
+Contributions are welcome!
 
 📄 License
 This project is licensed under the MIT License.
