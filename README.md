@@ -162,8 +162,6 @@ Here’s a quick example of how to use the GPU-Accelerated DOCX Parser:
 
 from gpu_docx_parser import GpuDocxParser
 
-# Your DOCX XML content
-xml_content = """<your DOCX XML content here>"""
 
 # Initialize the parser
 parser = GpuDocxParser(xml_content)
@@ -186,8 +184,9 @@ Please ensure your code adheres to the project's coding standards and includes a
 This project is licensed under the MIT License.
 
 🙏 Acknowledgements
-CuPy
-RAPIDS
-Dask
-Python
+- CuPy
+- RAPIDS
+- Dask
+- Python
+
 Thank you for using the GPU-Accelerated DOCX Parser! If you encounter any issues or have suggestions, feel free to open an issue or contact the maintainers.
