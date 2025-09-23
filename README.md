@@ -65,7 +65,8 @@ Here’s a quick example of how to use the GPU-Accelerated DOCX Parser:
   from gpu_docx_parser import GpuDocxParser
   
   # Your DOCX XML content
-  xml_content = #get the xml content somehow. Probably just unzip and grab the Document.xml. 
+  xml_content = #get the xml content somehow. 
+  # Probably just unzip view and read the Document.xml. 
   # I want to write this unzip portion in Rust eventually.
 
   # Initialize the parser
