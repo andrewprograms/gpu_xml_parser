@@ -48,11 +48,9 @@ Choose the correct installation command for your CUDA version:
 More information is available on the CuPy PyPI page.
 
 2. Install RAPIDS AI
-Use the following command to install RAPIDS AI:
-
   ```bash
   pip install rapidsai
-Refer to the RAPIDS AI PyPI page for additional details.
+  ```
 
 3. Install Dask cuDF
 Follow the installation instructions available in the Dask cuDF documentation.
@@ -67,13 +65,15 @@ Here’s a quick example of how to use the GPU-Accelerated DOCX Parser:
   from gpu_docx_parser import GpuDocxParser
   
   # Your DOCX XML content
-  xml_content = #get the xml content somehow. Probably just unzip and grab the Document.xml. I want to write this portion in Rust.
+  xml_content = #get the xml content somehow. Probably just unzip and grab the Document.xml. 
+  # I want to write this unzip portion in Rust eventually.
 
   # Initialize the parser
   parser = GpuDocxParser(xml_content)
 
   # Parse the document
   parsed_elements = parser.parse()
+  ```
 
 License
 This project is licensed under the MIT License.
