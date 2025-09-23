@@ -26,9 +26,9 @@ A **GPU-accelerated DOCX parser** that efficiently processes complex documents u
 - **Seamless Integration with GPU Libraries**
   - Integrates effortlessly with [RAPIDS cuDF](https://rapids.ai/) for data frames and [cuStrings](https://docs.rapids.ai/api/custrings/) for string manipulation.
 
-## 🛠️ Installation
+## Install
 
-Follow the instructions below based on your CUDA version to install the necessary packages.
+*important*: This varies based on your CUDA version. Make sure you install the right packages for your graphics card.
 
 ### 1. Install CuPy
 
@@ -40,36 +40,38 @@ Choose the correct installation command for your CUDA version:
   pip install cupy-cuda12x
 For CUDA 11.x:
 
-pip install cupy-cuda11x
+  ```bash
+  pip install cupy-cuda11x
+  
 More information is available on the CuPy PyPI page.
 
 2. Install RAPIDS AI
 Use the following command to install RAPIDS AI:
 
-
-pip install rapidsai
+  ```bash
+  pip install rapidsai
 Refer to the RAPIDS AI PyPI page for additional details.
 
 3. Install Dask cuDF
 Follow the installation instructions available in the Dask cuDF documentation.
 
-Note: This project does not provide support for installation or configuration issues. Please consult the respective documentation for help with any problems.
+Note: This project does not provide support for installation or configuration issues for your specific graphics card. Please consult the respective documentation for help with any problems.
 
-🏁 Getting Started
+# Getting Started
 Usage
 Here’s a quick example of how to use the GPU-Accelerated DOCX Parser:
 
+  ```python
+  from gpu_docx_parser import GpuDocxParser
+  
+  # Your DOCX XML content
+  xml_content = #get the xml content somehow. Probably just unzip and grab the Document.xml. I want to write this portion in Rust.
 
-from gpu_docx_parser import GpuDocxParser
+  # Initialize the parser
+  parser = GpuDocxParser(xml_content)
 
-# Your DOCX XML content
-xml_content = #get the xml content somehow. Probably just unzip and grab the Document.xml. I want to write this portion in Rust.
-
-# Initialize the parser
-parser = GpuDocxParser(xml_content)
-
-# Parse the document
-parsed_elements = parser.parse()
+  # Parse the document
+  parsed_elements = parser.parse()
 
 License
 This project is licensed under the MIT License.
