@@ -1,4 +1,4 @@
-# 🚀 GPU-Accelerated DOCX Parser
+# GPU-Accelerated DOCX Parser
 
 A **GPU-accelerated DOCX parser** that efficiently processes complex documents using [CuPy](https://cupy.dev/) and [RAPIDS](https://rapids.ai/), featuring advanced XML parsing, hierarchical data structures, and robust error handling.
 
@@ -6,7 +6,7 @@ A **GPU-accelerated DOCX parser** that efficiently processes complex documents u
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![CUDA](https://img.shields.io/badge/CUDA-11.x%20%7C%2012.x-orange)
 
-## 🌟 Features
+## Features
 
 - **Advanced XML Parsing**
   - Utilizes a Finite State Machine (FSM) for robust parsing directly on the GPU.
@@ -71,40 +71,20 @@ parser = GpuDocxParser(xml_content)
 # Parse the document
 parsed_elements = parser.parse()
 
-# Process parsed_elements as needed
-🤝 Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository
-Create a new branch for your feature or bugfix
-Commit your changes with clear messages
-Push to your branch
-Open a Pull Request describing your changes
-Please ensure your code adheres to the project's coding standards and includes appropriate tests.
-
-📄 License
+License
 This project is licensed under the MIT License.
 
-🙏 Acknowledgements
+Acknowledgements
 CuPy
 RAPIDS
 Dask
 Python
-Thank you for using the GPU-Accelerated DOCX Parser! If you encounter any issues or have suggestions, feel free to open an issue or contact the maintainers.
+Thank you for using the GPU-Accelerated DOCX Parser! If you encounter any issues or have suggestions, feel free to open an issue.
 
 
 
 ---
 
-### Preview
-
-# 🚀 GPU-Accelerated DOCX Parser
-
-A **GPU-accelerated DOCX parser** that efficiently processes complex documents using [CuPy](https://cupy.dev/) and [RAPIDS](https://rapids.ai/), featuring advanced XML parsing, hierarchical data structures, and robust error handling.
-
-![MIT License](https://img.shields.io/badge/license-MIT-green)
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![CUDA](https://img.shields.io/badge/CUDA-11.x%20%7C%2012.x-orange)
 
 ## 🌟 Features
 
