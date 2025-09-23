@@ -28,7 +28,7 @@ A **GPU-accelerated DOCX parser** that efficiently processes complex documents u
 
 ## Install
 
-*important*: This varies based on your CUDA version. Make sure you install the right packages for your graphics card.
+*Important*: This varies based on your CUDA version. Make sure you install the right packages for your graphics card.
 
 1. Install CuPy
 
@@ -55,7 +55,7 @@ More information is available on the CuPy PyPI page.
 3. Install Dask cuDF
 Follow the installation instructions available in the Dask cuDF documentation.
 
-Note: This project does not provide support for installation or configuration issues for your specific graphics card. Please consult the respective documentation for help with any problems.
+*Note*: This project does not provide support for installation or configuration issues for your specific graphics card. Please consult the respective documentation for help with any problems.
 
 # Getting Started
 Usage
@@ -75,12 +75,14 @@ Here’s a quick example of how to use the GPU-Accelerated DOCX Parser:
   parsed_elements = parser.parse()
   ```
 
-License
+### License
 This project is licensed under the MIT License.
 
-Acknowledgements
-CuPy
-RAPIDS
-Dask
-Python
-Thank you for using the GPU-Accelerated DOCX Parser! If you encounter any issues or have suggestions, feel free to open an issue.
+### Acknowledgements
+- CuPy
+- RAPIDS
+- Dask
+- Python
+- Rust
+
+### Thank you for checking out the GPU-Accelerated DOCX Parser! If you encounter any issues or have suggestions, feel free to open an issue.
