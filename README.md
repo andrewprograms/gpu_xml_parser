@@ -38,10 +38,12 @@ Choose the correct installation command for your CUDA version:
   
   ```bash
   pip install cupy-cuda12x
+  ```
 For CUDA 11.x:
 
   ```bash
   pip install cupy-cuda11x
+  ```
   
 More information is available on the CuPy PyPI page.
 
