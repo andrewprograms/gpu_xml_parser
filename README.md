@@ -30,7 +30,7 @@ A **GPU-accelerated DOCX parser** that efficiently processes complex documents u
 
 *important*: This varies based on your CUDA version. Make sure you install the right packages for your graphics card.
 
-### 1. Install CuPy
+1. Install CuPy
 
 Choose the correct installation command for your CUDA version:
 
